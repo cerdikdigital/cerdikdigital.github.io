@@ -1,8 +1,360 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
 
-<h1>Cerdik Digital</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerdik Digital</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
 
+</head>
+
+<body class="bg-slate-100">
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container flex justify-between items-center mx-auto px-8 py-4">
+            <!-- Logo -->
+            <div class="nav-item">
+                <div class="shadow-box"></div>
+                <div class="nav-box w-20 flex justify-center items-center">
+                    <img src="assets/images/logo.svg" alt="bolt" />
+                </div>
+            </div>
+
+            <!-- Menu Tengah -->
+            <div class="nav-item">
+                <div class="shadow-box w-full"></div>
+                <div class="nav-box flex gap-6 text-cerdik-black font-anton tracking-wide px-8">
+                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline">Service</a>
+                    <a href="#" class="hover:underline">Product</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </div>
+            </div>
+
+            <!-- Sign In & Cart -->
+            <div class="flex gap-4">
+                <!-- Sign In Button -->
+                <div class="nav-item">
+                    <div class="shadow-box"></div>
+                    <div class="nav-box text-cerdik-black font-anton tracking-wide w-30">
+                        <a href="#" class="hover:underline">Sign In</a>
+                    </div>
+                </div>
+
+                <!-- Cart Icon -->
+                <div class="nav-item">
+                    <div class="shadow-box"></div>
+                    <div class="nav-box w-14 flex justify-center items-center">
+                        <a href="#">
+                            <img src="assets/icons/shoping-cart.svg" alt="bolt" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Start -->
+    <section id="hero">
+        <div class="w-full">
+            <div class="flex w-full mb-20">
+                <img src="https://cdn.sanity.io/images/34ent8ly/production/241e0a5af6f907aa80ec9bd6a7c5bb9721450527-1903x947.png?w=1920&h=956&fit=min&auto=format" 
+                     alt="" 
+                     class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+    
+     <!-- Hero End -->
+
+    <!-- Service Section Start -->
+    <section id="service">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center mb-20">
+                <div class="styled-container">
+                    <h2 class="text-center text-3xl font-anton tracking-wide font-light">
+                        Skill Yang Kami Tawarkan
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Graphic Designer -->
+            <div class="flex flex-wrap items-center justify-center mb-32">
+                <div class="w-full lg:w-1/2 flex justify-center">
+                    <!-- <div class="service-card" style="--height: 25rem;">
+                        <div class="service-card-shadow"></div>
+                        <div class="service-card-main">
+                            <img src="https://99designs-blog.imgix.net/blog/wp-content/dist/images/subscribe/dinos-large.svg" alt="">
+                        </div>
+                    </div> -->
+                    <img src="https://99designs-blog.imgix.net/blog/wp-content/dist/images/subscribe/dinos-large.svg" alt="">
+                </div>
+                <div class="w-full lg:w-1/2 flex flex-col pt-6 lg:px-8 lg:pt-0">
+                    <h1 class="text-3xl font-anton text-cerdik-red">Desain Grafis</h1>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Brand yang kuat dimulai dari desain yang tepat! Kami siap bantu bikin logo, branding, dan konten visual yang bikin bisnis kamu makin menonjol. Dari feed Instagram yang estetik hingga desain UI/UX yang profesional, semuanya bisa kami wujudkan dengan sentuhan kreatif dan strategi yang tepat. 
+                    </p>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Desain bukan sekedar tampilan, tapi juga cara membangun kesan pertama yang kuat di mata pelanggan. Saatnya tampil beda dengan desain yang menarik, berkarakter, dan sesuai dengan identitas brand kamu. Jangan biarkan bisnismu tenggelam di antara kompetitor. 
+                    </p>
+                    <p class="font-bold text-dark font-body dark:text-black">Yuk, percantik brand kamu sekarang dan buat kesan tak terlupakan! 🚀</p>
+                    <button class="cerdik-button w-2 mt-8">Learn More</button>
+                </div>
+            </div>
+
+            <!-- Website Development -->
+            <div class="flex flex-wrap items-center justify-center mb-32">
+                <div class="w-full lg:w-1/2 flex flex-col pt-6 lg:pt-0 lg:px-8 lg:text-left order-last lg:order-none">
+                    <h1 class="text-3xl text-cerdik-blue font-anton">Website Development</h1>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Website bukan cuma tampilan, tapi juga investasi buat bisnis kamu! Di era digital, punya website yang modern, cepat, dan responsif bisa bikin bisnis makin dipercaya dan mudah ditemukan pelanggan. Kami siap bantu bikin website yang nggak cuma menarik secara visual, tapi juga fungsional, SEO-friendly, dan mobile-friendly supaya bisa diakses di mana saja.  
+                    </p>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Mau website company profile, e-commerce, atau landing page untuk promosi? Semua bisa kami buat sesuai kebutuhan bisnis kamu dengan desain yang clean dan performa maksimal. Jangan sampai bisnis kamu tertinggal hanya karena belum punya website yang profesional.
+                    </p>
+                    <p class="font-bold font-body text-dark dark:text-black">Yuk, bangun website impianmu sekarang! 🚀</p>
+
+                    <button class="cerdik-button mt-8 w-2">Learn More</button>
+                </div>
+                <div class="w-full lg:w-1/2 flex justify-center order-first lg:order-none">
+                    <!-- <div class="service-card" style="--height: 25rem;">
+                        <div class="service-card-shadow"></div>
+                        <div class="service-card-main"></div>
+                    </div> -->
+                    <img src="https://99designs-blog.imgix.net/blog/wp-content/dist/images/subscribe/dinos-large.svg" alt="">
+                </div>
+            </div>
+
+            <!-- Graphic Designer -->
+            <div class="flex flex-wrap items-center justify-center">
+                <div class="w-full lg:w-1/2 flex justify-center">
+                    <!-- <div class="service-card" style="--height: 25rem;">
+                        <div class="service-card-shadow"></div>
+                        <div class="service-card-main"></div>
+                    </div> -->
+                    <img src="https://99designs-blog.imgix.net/blog/wp-content/dist/images/subscribe/dinos-large.svg" alt="">
+                </div>
+                <div class="w-full lg:w-1/2 flex flex-col pt-6 lg:pt-0 lg:px-8 lg:text-left">
+                    <h1 class="text-3xl text-cerdik-green font-anton tracking-wide">Mobile Application</h1>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Bawa bisnis kamu ke genggaman pelanggan dengan aplikasi mobile yang cepat, ringan, dan user-friendly! Di era digital, aplikasi mobile bisa bikin pelanggan lebih mudah mengakses layanan atau produk kamu kapan saja. Kami siap bikin aplikasi Android & iOS yang nggak cuma keren secara tampilan, tapi juga punya performa maksimal dan pengalaman pengguna yang nyaman.  
+                    </p>
+                    <p class="text-body font-body mt-2 max-w-xl text-justify mx-auto lg:mx-0">
+                        Kami siap menghadirkan solusi digital dengan teknologi terbaru dan desain yang nyaman digunakan. Aplikasi yang cepat dan responsif bisa bikin pelanggan makin betah dan bisnismu makin berkembang. Jangan biarkan peluang berlalu begitu saja.
+                    </p>
+                    <p class="font-bold text-dark font-body dark:text-black">saatnya wujudkan aplikasimu dan bawa bisnismu lebih dekat ke pelanggan! 🚀</p>
+                    <button class="cerdik-button w-2 mt-8">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!-- Product Section Start -->
+    <section id="product" class="pt-36">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center mb-20">
+                <div class="styled-container">
+                    <h2 class="text-center text-3xl font-anton tracking-wide font-light">Produk Digital Kami</h2>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center">
+                <!-- Product Card -->
+                <div class="w-full px-4 lg:w-1/2 flex justify-center">
+                    <div class="product-card" style="--color: #D2D5FF;">
+                        <div class="product-card-shadow"></div>
+                        <div class="flex items-center space-x-4">
+                            <div class="product-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zM3 12h18M12 3c2.5 2.5 2.5 15 0 18m0-18c-2.5 2.5-2.5 15 0 18" />
+                                </svg>
+                            </div>
+                            <h2 class="product-card-title">Notion</h2>
+                        </div>
+                        <p class="product-card-description font-body text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="product-card-bolt">
+                            <img src="assets/icons/bolt.svg" alt="bolt" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Another Product Card -->
+                <div class="w-full px-4 lg:w-1/2 flex justify-center">
+                    <div class="product-card">
+                        <div class="product-card-shadow"></div>
+                        <div class="flex items-center space-x-4">
+                            <div class="product-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zM3 12h18M12 3c2.5 2.5 2.5 15 0 18m0-18c-2.5 2.5-2.5 15 0 18" />
+                                </svg>
+                            </div>
+                            <h2 class="product-card-title">Ms Office</h2>
+                        </div>
+                        <p class="product-card-description font-body text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="product-card-bolt">
+                            <img src="assets/icons/bolt.svg" alt="bolt" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center pt-20">
+                <!-- Product Card -->
+                <div class="w-full px-4 lg:w-1/2 flex justify-center">
+                    <div class="product-card" style="--color: #2DCE71;">
+                        <div class="product-card-shadow"></div>
+                        <div class="flex items-center space-x-4">
+                            <div class="product-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zM3 12h18M12 3c2.5 2.5 2.5 15 0 18m0-18c-2.5 2.5-2.5 15 0 18" />
+                                </svg>
+                            </div>
+                            <h2 class="product-card-title">Ms Office</h2>
+                        </div>
+                        <p class="product-card-description font-body text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="product-card-bolt">
+                            <img src="assets/icons/bolt.svg" alt="bolt" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Another Product Card -->
+                <div class="w-full px-4 lg:w-1/2 flex justify-center">
+                    <div class="product-card" style="--color: #57D3EB;">
+                        <div class="product-card-shadow"></div>
+                        <div class="flex items-center space-x-4">
+                            <div class="product-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zM3 12h18M12 3c2.5 2.5 2.5 15 0 18m0-18c-2.5 2.5-2.5 15 0 18" />
+                                </svg>
+                            </div>
+                            <h2 class="product-card-title">Ms Office</h2>
+                        </div>
+                        <p class="product-card-description font-body text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="product-card-bolt">
+                            <img src="assets/icons/bolt.svg" alt="bolt" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Portfolio Section Start-->
+     <section id="portfolio" class="pt-20">
+        <img src="assets/images/rocket-animation.svg" alt="">
+        <div class="bg-cerdik-red w-full pb-20">
+            <div class="justify-center px-40">
+                <h1 class="text-4xl font-anton text-white text-center">
+                    Karya Terbaik Kami
+                </h1>
+                <p class="text-white text-center mt-4 font-body">
+                    Kami percaya bahwa setiap bisnis punya cerita unik yang perlu disampaikan dengan cara yang tepat. 
+                    <br>Itulah mengapa karya terbaik kami lahir dari kombinasi kreativitas, teknologi, dan strategi yang matang. 
+                    <br>Dari desain visual yang memikat, website yang responsif, hingga aplikasi mobile yang fungsional.
+                    <br>Semua kami buat dengan detail dan kualitas terbaik.
+                    
+                </p>
+                <p class="text-white text-center pt-2 font-body">
+                    Kami tidak sekedar menciptakan produk, tapi menghadirkan solusi yang membawa bisnismu ke level berikutnya. 
+                    <br>Saatnya tampil lebih profesional, lebih modern, dan lebih dekat dengan pelanggan. 
+                    <br><span class="font-semibold">Yuk, wujudkan ide kamu bersama kami!</span>
+                </p>
+            </div>
+
+            <div class="w-full mt-20 px-4 flex justify-center">
+                <div class="portfolio-card m-5">
+                    <div class="portfolio-header justify-end">
+                        <div class="flex space-x-1">
+                            <img src="assets/icons/icon-minimize.svg" />
+                            <img src="assets/icons/icon-maximize.svg" />
+                            <img src="assets/icons/icon-close.svg" />
+                        </div>
+                    </div>
+                    <h2 class="portfolio-title">Portfolio</h2>
+                    <div class="portfolio-image-container">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg" class="portfolio-image">
+                    </div>
+                </div>
+
+                <div class="portfolio-card m-5">
+                    <div class="portfolio-header justify-end">
+                        <div class="flex space-x-1">
+                            <img src="assets/icons/icon-minimize.svg" />
+                            <img src="assets/icons/icon-maximize.svg" />
+                            <img src="assets/icons/icon-close.svg" />
+                        </div>
+                    </div>
+                    <h2 class="portfolio-title">Portfolio</h2>
+                    <div class="portfolio-image-container">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg" class="portfolio-image">
+                    </div>
+                </div>
+
+                <div class="portfolio-card m-5">
+                    <div class="portfolio-header justify-end">
+                        <div class="flex space-x-1">
+                            <img src="assets/icons/icon-minimize.svg" />
+                            <img src="assets/icons/icon-maximize.svg" />
+                            <img src="assets/icons/icon-close.svg" />
+                        </div>
+                    </div>
+                    <h2 class="portfolio-title">Portfolio</h2>
+                    <div class="portfolio-image-container">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg" class="portfolio-image">
+                    </div>
+                </div>
+
+                <div class="portfolio-card m-5">
+                    <div class="portfolio-header justify-end">
+                        <div class="flex space-x-1">
+                            <img src="assets/icons/icon-minimize.svg" />
+                            <img src="assets/icons/icon-maximize.svg" />
+                            <img src="assets/icons/icon-close.svg" />
+                        </div>
+                    </div>
+                    <h2 class="portfolio-title">Portfolio</h2>
+                    <div class="portfolio-image-container">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg" class="portfolio-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Portfolio Section End -->
+      
+
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.getElementById("navbar");
+            const portfolioSection = document.getElementById("portfolio");
+    
+            window.addEventListener("scroll", function () {
+                const rect = portfolioSection.getBoundingClientRect();
+                if (rect.top <= 0) { // Jika bagian atas section portfolio kurang dari 100px dari viewport
+                    navbar.style.opacity = "0"; // Sembunyikan navbar
+                    navbar.style.pointerEvents = "none"; // Nonaktifkan interaksi
+                } else {
+                    navbar.style.opacity = "1"; // Tampilkan kembali navbar
+                    navbar.style.pointerEvents = "auto";
+                }
+            });
+        });
+    </script>
+    
+    
 </body>
+
 </html>
